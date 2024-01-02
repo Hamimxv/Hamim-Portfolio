@@ -1,16 +1,16 @@
 # Personal Portfolio ⚡️ 
-> https://hamim-portfolio.github.io
+> https://hamimxv.github.io/Hamim-Portfolio/
 
 [![Maintenance](https://img.shields.io/badge/maintained-yes-green.svg)]
-[![Website shields.io](https://img.shields.io/badge/website-up-yellow)](http://hamim-portfolio.github.io/)
-[![Ask Me Anything !](https://img.shields.io/badge/ask%20me-linkedin-1abc9c.svg)](https://www.linkedin.com/in/hamim-al-fardin/)
+[![Website shields.io](https://img.shields.io/badge/website-up-yellow)](https://hamimxv.github.io/Hamim-Portfolio/)
+[![Ask Me Anything !](https://img.shields.io/badge/ask%20me-linkedin-1abc9c.svg)](https://hamimxv.github.io/Hamim-Portfolio/)
 [![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
 
 ### Website Preview
 <p align="center"> 
   <kbd>
-    <a href="https://hamim-portfolio.github.io" target="_blank"><img src="examples/preview.gif">
-  </a>
+    <a href="https://hamimxv.github.io/Hamim-Portfolio/" target="_blank"><img src="examples/preview.gif">
+    </a>
   </kbd>
 </p>
 
@@ -30,7 +30,7 @@
 ✔️ Contact Info\
 ✔️ Resume
 
-To view a live example, **[click here](https://hamim-portfolio.github.io/)**
+To view a live example, **[click here](https://hamimxv.github.io/Hamim-Portfolio/)**
 
 ## Contributing 💡
 #### Step 1
