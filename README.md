@@ -1,7 +1,7 @@
 # Personal Portfolio ⚡️ 
 > https://hamimxv.github.io/Hamim-Portfolio/
 
-[![Maintenance](https://img.shields.io/badge/maintained-yes-green.svg)]
+[![Maintenance](https://img.shields.io/badge/maintained-yes-green.svg)
 [![Website shields.io](https://img.shields.io/badge/website-up-yellow)](https://hamimxv.github.io/Hamim-Portfolio/)
 [![Ask Me Anything !](https://img.shields.io/badge/ask%20me-linkedin-1abc9c.svg)](https://hamimxv.github.io/Hamim-Portfolio/)
 [![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
