@@ -928,7 +928,7 @@ i
                     <div class="col-lg-7 valign">
                         <div class="full-width wow fadeIn">
                             
-                            <form id="contact-form" method="post"  data-netlify="true" data-netlify-honeypot="bot-field" data-netlify-success="/actions/success.html">
+                            <form id="contact-form" method="post" action="/success.html" data-netlify="true" data-netlify-honeypot="bot-field" onsubmit="redirectToSuccessPage(event)">
                                 <input class="d-none" name="bot-field">
                                 <div class="messages"></div>
                                 <div id="success-message" class="d-none alert alert-success">Your message has been sent successfully.</div>
@@ -960,6 +960,16 @@ i
                                     </div>
                                 </div>
                             </form>
+
+                            <script>
+                                function redirectToSuccessPage(event) {
+                                    // Prevent the default form submission behavior
+                                    event.preventDefault();
+                            
+                                    // Redirect to the success page
+                                    window.location.href = '/actions/success.html';
+                                }
+                            </script>
                                         
 
                         </div>
