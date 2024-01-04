@@ -935,6 +935,8 @@ i
 
                                 <div class="messages"></div>
 
+                                <div id="success-message" class="d-none alert alert-success">Your message has been sent successfully.</div>
+
                                 <div class="controls row">
 
                                     <div class="col-lg-6">
@@ -968,6 +970,26 @@ i
 
                                 </div>
                             </form>
+
+
+
+                            <script>
+                                function submitForm() {
+                                    // You can add additional validation here if needed
+                            
+                                    // Display success message
+                                    document.getElementById('success-message').classList.remove('d-none');
+                            
+                                    // Optionally, you can reset the form
+                                    document.getElementById('contact-form').reset();
+                            
+                                    // Prevent the default form submission
+                                    event.preventDefault();
+                                }
+                            </script>
+
+
+
                         </div>
                     </div>
                 </div>
