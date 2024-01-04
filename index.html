@@ -928,7 +928,7 @@ i
                     <div class="col-lg-7 valign">
                         <div class="full-width wow fadeIn">
                             
-                            <form id="contact-form" method="post" data-netlify="true" onSubmit="submitForm()" data-netlify-honeypot="bot-field">
+                            <form id="contact-form" method="post" data-netlify="true" data-netlify-honeypot="bot-field"  action="/success">
                         
                             <input class="d-none" name="bot-field">
                         
@@ -967,23 +967,7 @@ i
                                 </div>
                         
                             </div>
-                        </form>
-                        
-                        <script>
-                            function submitForm() {
-                                // You can add additional form validation here if needed
-                        
-                                // Show success message
-                                var successMessage = document.createElement('div');
-                                successMessage.className = 'alert alert-success';
-                                successMessage.innerHTML = '<strong>Success!</strong> Your message has been sent.';
-                                document.querySelector('.messages').appendChild(successMessage);
-                        
-                                // Optional: You can reset the form after submission
-                                document.getElementById('contact-form').reset();
-                            }
-                        </script>
-                        
+                        </form>                
 
                         </div>
                     </div>
