@@ -120,11 +120,29 @@ i
                     <div class="full-width info">
                         <div class="d-flex justify-content-end">
                             <a href="mailto:hamim.al.fardin@gmail.com">
-                                <span class="sub-title fz-12">> hamim.al.fardin@gmail.com</span>
+                                <span class="sub-title fz-12" id="emailInfo" >> hamim.al.fardin@gmail.com</span>
                             </a>
                         </div>
                     </div>
                 </div>
+
+                <script>
+                    var emailInfo = document.getElementById("emailInfo");
+                
+                    function displayInfo() {
+                        var infoText = " | My Email😊";
+                        emailInfo.textContent = "> hamim.al.fardin@gmail.com " + infoText;
+                    }
+                
+                    function hideInfo() {
+                        emailInfo.textContent = "> hamim.al.fardin@gmail.com";
+                    }
+                
+                    var emailLink = document.querySelector('a[href="mailto:hamim.al.fardin@gmail.com"]');
+                    emailLink.addEventListener("mouseover", displayInfo);
+                    emailLink.addEventListener("mouseout", hideInfo);
+                </script>
+
             </div>
             <div class="nav-butn">
                 <span class="pe-7s-menu"></span>
@@ -172,7 +190,7 @@ i
                 </div>
                 <div class="col-lg-8 content main-bg">
                     <h1>Hello, I’m <span class="main-color">Hamim Al Fardin</span>, Front-end Developer
-                        and <span class="bord">UX / UI Designer <i></i></span> Based in Bangladesh.</h1>
+                        and <span class="bord">UX / UI Designer <i></i></span> Based in <span class="green-text">Bangladesh</span>.</h1>
                     <div class="stauts mt-80">
                         <div class="d-flex align-items-center">
                             <div class="mr-40">

@@ -49,6 +49,9 @@
 -----------------------------------------------------------------*/
 :root {
   --maincolor: #fad60c;
+    .green-text {
+      color: rgb(34, 228, 34);
+  }
 }
 
 /* Typography
@@ -4541,6 +4544,8 @@ img.left {
   .comments-post .item-box.replayed {
     margin-left: 0;
   }
+
+
 }
 
 /* ====================== [ End Responsive ] ====================== */
